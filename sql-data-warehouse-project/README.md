@@ -2,7 +2,7 @@
 # Data Warehouse and Analytics Project
 
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
-This project provides a comprehensive, end-to-end example of building a data warehouse and performing analytics using SQL Server. It serves as a practical portfolio piece showcasing skills in data engineering, data modeling, and data analysis, following industry best practices.
+This project provides a comprehensive, end-to-end example of building a data warehouse and performing analytics using My SQL . It serves as a practical portfolio piece showcasing skills in data engineering, data modeling, and data analysis, following industry best practices.
 
 ---
 
@@ -10,8 +10,7 @@ This project provides a comprehensive, end-to-end example of building a data war
 
 This project utilizes the **Medallion Architecture** to structure the data flow, ensuring quality and usability:
 
-![Data Architecture Diagram](docs/data_architecture.png)
-*Diagram created with [DrawIO](https://www.drawio.com/)*
+
 
 1.  **Bronze Layer**: Raw, unchanged data ingested directly from source systems (CSV files) into SQL Server tables. This serves as the historical archive.
 2.  **Silver Layer**: Data is cleaned, standardized, transformed, and potentially enriched. This layer addresses data quality issues and prepares the data for modeling.
